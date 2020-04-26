@@ -1,0 +1,86 @@
+html,
+body,
+div,
+span,
+button,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+strong,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+tbody,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.clearfix .left {
+    float: left;
+}
+
+.clearfix .right {
+    float: right;
+}
+
+.clearfix .over {
+    overflow: hidden;
+    display: block;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex .auto {
+    flex: 1;
+}
+
+.cursor {
+    cursor: pointer;
+}
