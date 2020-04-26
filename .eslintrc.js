@@ -11,7 +11,7 @@ module.exports = {
         parser: 'babel-eslint'
     },
     rules: {
-    // 禁止使用console（warn：在打开的规则作为警告，off：规则关闭）
+        // 禁止使用console（warn：在打开的规则作为警告，off：规则关闭）
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         // 禁止使用debugger
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
@@ -20,7 +20,9 @@ module.exports = {
         // 函数定义时括号前面要不要有空格
         'space-before-function-paren': [0, 'always'],
         // 缩进风格
-        indent: [2, 4]
+        indent: [2, 4],
+        // 允许使用ES6的模板字符串
+        templateStrings: 'off'
     },
     overrides: [
         {
