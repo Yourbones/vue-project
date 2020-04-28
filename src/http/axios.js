@@ -1,9 +1,10 @@
 import axios from 'axios';
+import { getBaseURL } from '../config/index';
 
-const baseURL = process.env.API_URL;
+const baseURL = getBaseURL();
 
 const service = axios.create({
-    baseURL: baseURL || 'https://www.baidu.com',
+    baseURL: baseURL,
     // 请求超时时间(ms)
     timeout: 5000
 });
