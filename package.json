@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve --history-api-fallback",
     "build": "vue-cli-service build",
+    "compile:dev": "vue-cli-serve build --mode dev",
+    "compile:test": "vue-cli-serve build --mode test",
+    "compile:pre": "vue-cli-serve build --mode pre",
+    "compile:online": "vue-cli-serve build --mode production",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
