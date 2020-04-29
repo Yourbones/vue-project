@@ -97,7 +97,7 @@ module.exports = {
     // css预设器配置项
     loaderOptions: {
       sass: {
-        prependData: '@import "~@/styles/_var.scss";'
+        prependData: '@import "~@/style/_var.scss";'
       }
     }
   },
