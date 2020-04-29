@@ -96,6 +96,9 @@ module.exports = {
     sourceMap: false,
     // css预设器配置项
     loaderOptions: {
+      sass: {
+        prependData: '@import "~@/styles/_var.scss";'
+      }
     }
   },
   devServer: {
