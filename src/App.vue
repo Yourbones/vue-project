@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/css">CSS</router-link>
+      <router-link to="/css">CSS</router-link> |
+      <router-link to="/calcSource">计算原料采购量</router-link>
     </div>
     <router-view/>
   </div>
